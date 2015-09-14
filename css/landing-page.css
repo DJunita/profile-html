@@ -21,6 +21,14 @@ h6 {
     font-weight: 700;
 }
 
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
 .img-center {
 	margin: 0 auto;
 }
