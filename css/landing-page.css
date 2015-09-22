@@ -135,7 +135,7 @@ p.copyright {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/jam.jpg) no-repeat center center;
+    //background: url(../img/jam.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -149,6 +149,7 @@ p.copyright {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
+    color: #101010;
 }
 
 .intro-divider {
@@ -168,6 +169,7 @@ p.copyright {
 
     .intro-message > h1 {
         font-size: 3em;
+        
     }
 
     ul.intro-social-buttons > li {

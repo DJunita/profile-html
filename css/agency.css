@@ -321,7 +321,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 90px 0;
 }
 
 section h2.section-heading {
@@ -339,7 +339,7 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
-@media(min-width:768px) {
+@media(min-width:668px) {
     section {
         padding: 150px 0;
     }
@@ -603,7 +603,7 @@ section h3.section-subheading {
     }
 }
 
-@media(min-width:1200px) {
+@media(min-width:1100px) {
     .timeline>li {
         min-height: 170px;
     }
